@@ -1,0 +1,49 @@
+git init    Inicia um repositório Git Loca 
+
+git status  Mostra os arquivos modificados 
+
+git add nome-arquivo    Adiciona um arquivo ao staging 
+
+git add .   Adiciona todos os arquivos 
+
+git commit -m "mensagem"    Cria um commit com uma mensagem 
+
+git log     Mostra o histórico de commits 
+
+git clone <url> Clona um repositório remoto 
+
+git push    Envia os commits locais para o Github (ou outro remoto) 
+
+git pull    Atualiza o repositório local com base no remoto 
+
+ 
+
+let umaString = "um texto" 
+
+umaString[3]                            //Retorna o caractere na posição 3 (índice) → "t" 
+
+umaString.charAt(3)                     //Mesmo efeito de umaString[3] → "t" 
+
+umaString.charAt(4)                     //Retorna o caractere na posição 4 → "e" 
+
+umaString.concat(" um", " texto", "")   //Concatena várias strings → "Um texto um texto" 
+
+umaString.replace("Um", "outra")        //Substitui "Um" por "outra" → "outra texto" 
+
+umaString.length                        //Retorna o comprimento da string → 8 
+
+umaString.slice(0, 2)                   //Corta do índice 0 ao 2 (exclusivo) → "Um" 
+
+umaString.slice(2, 4)                   //Corta do índice 2 ao 4 (exclusivo) → " t" (espaço + "t") 
+
+  
+
+//console.log(umaString[4]) 
+
+//console.log(umaString.charAt(3)) 
+
+//console.log(umaString.concat(" um", " outro")) 
+
+//console.log(umaString.replace("um", "outro")) 
+
+console.log(umaString.length) 
