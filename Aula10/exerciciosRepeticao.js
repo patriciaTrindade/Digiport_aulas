@@ -18,18 +18,58 @@ for(i = 1;  i < 10 ; i++){
 }
 
 //exercicio 3 lanchonete virtual, 1 ver cardapio, 2 fazer pedido, 3 falar com atendente e 4 sair
-const prompt = require("prompt-sync")();
-opcao = parseInt(prompt("Escolha uma opção: "));
+prompt = require("prompt-sync") (); 
 
-while(opcao !== 4 ){
-switch(opcao){
-    case 1 :"Ver cardápio";
-    break;
-    case 2 : "Fazer pedido";
-    break;
-    case 3 : "Falar com atendente";
-    break;
-    default:
-    console.log("Valor inválido!");
-}
-}
+opcao = 0; 
+
+while (opcao !== 4) { 
+
+    console.log("1 - Ver o cardápio"); 
+
+    console.log("2 - Fazer o pedido"); 
+
+    console.log("3 - Falar com um atendente"); 
+
+    console.log("4 - Sair"); 
+
+opcao = parseInt(prompt("Escolha uma opção: ")); 
+
+switch (opcao) { 
+
+    case 1: 
+
+        console.log("Cardapio: Hamburguer, Batata, Refrigerante"); 
+
+        break; 
+
+     
+
+    case 2: 
+
+        console.log("Pedido anotado! Estamos preparando seu lanche com carinho"); 
+
+        break; 
+
+    case 3: 
+
+        console.log("A Atendente está a caminho"); 
+
+        break; 
+
+     
+
+    case 4: 
+
+        console.log("Obrigada pela visita! Volte sempre!"); 
+
+        break; 
+
+    default: 
+
+        console.log("Opção invalida. Tente novamente"); 
+
+} 
+
+} 
+
+ 
